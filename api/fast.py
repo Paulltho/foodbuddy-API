@@ -12,9 +12,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
 # Import functions
-from foodbuddy.KNN.KNN_to_predictions import load_KNN, weighting_nutrients
+from foodbuddy.KNN.KNN_to_predictions import load_KNN
 from foodbuddy.RNN.load_RNN import load_RNN
-from foodbuddy.RNN.Image_preproc import full_pipeline
 from foodbuddy.Label_matcher.Target_match_setup import download_targets_df
 from foodbuddy.Label_matcher.Recipes_list_setup import download_recipes_df
 from foodbuddy.Label_matcher.Ingredients_list_setup import download_ingredients_df
