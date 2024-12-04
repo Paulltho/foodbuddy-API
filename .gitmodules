@@ -1,3 +1,6 @@
 [submodule "website"]
 	path = website
 	url = https://github.com/paulltho/foodbuddy-streamlit.git
+[submodule "foodbuddy"]
+	path = foodbuddy
+	url = https://github.com/VictorTHER/foodbuddy.git
