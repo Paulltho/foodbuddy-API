@@ -1,4 +1,4 @@
 .env
 .envrc
 .env.yaml
-website/.streamlit/secrets.toml
+.streamlit/secrets.toml
