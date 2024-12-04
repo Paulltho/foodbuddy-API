@@ -5,7 +5,7 @@ reinstall_package:
 	@pip install -e .
 
 run_streamlit:
-	streamlit run .streamlit/app.py
+	streamlit run website/app.py
 
 run_api:
 	uvicorn api.fast:app --reload
